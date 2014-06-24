@@ -1,0 +1,45 @@
+﻿@media screen and (max-width: 959px) {
+    * {margin: 0; padding: 0;}
+
+    #navigation {
+        display: none;
+    }
+    /*#mobile_nav { /*옆으로 화면을 넘기면 나타나도록 ex)facebook  or 화면을 내릴 경우에 나타나도록
+        border: 1px solid black;
+        position: fixed;
+        right: 0;
+        top: 0;
+        width: 100%;
+        height: 30px;
+        background: #413e3e;
+        display: block;
+    }*/
+
+    #container {
+        margin: 0;
+    }
+    #first_c {margin: 0 2.5%; margin-bottom: 5%;}
+    #first_c li{
+        margin-bottom: 3%;
+        float: none;
+    }
+    #second_c {overflow: hidden; margin: 0 2.5%;}
+    #second_c li {
+        margin-bottom: 3%;
+        float: left;
+        width: 46.7%;
+    }
+        #second_c li:first-child, #second_c li:nth-child(3) {
+            margin-right: 6.5%;
+        }
+}
+
+/*@media screen and (min-width: 768px) and (max-width: 959px) {
+    #navigation {
+        display: none;
+    }
+    #mobile_nav {
+        display: none;
+    }
+}*/
+

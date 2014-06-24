@@ -1,0 +1,94 @@
+﻿@media screen and (min-width: 960px) {
+    header {
+        /*background: url('../img/asdf.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 350px;*/
+    }
+
+    /*login*/
+    #login {
+        margin-top: 65px;
+        padding-right: 30px;
+        font-weight: bold;
+        font-size: 1em;
+    }
+    #login_list li {
+        float: left;
+        margin-right: 5px;
+    }
+    #login_list li span {
+        color: #808080;
+        margin-right: 5px;
+    }
+    #login_list button {
+        margin-left: 5px;
+        border: none;
+        background: none;
+        color: #808080;
+        font-weight: bold;
+        font-size: 1em;
+    }
+    #login_list input {
+        border:none;
+        border-bottom: 1px solid #808080;
+    }
+
+    /*navigation*/
+    
+    /*container*/
+    #container {
+        margin-left: 35px;
+        /*border: 1px solid black;*/
+    }
+
+    #gnb {
+         margin-right: -15px;
+    }
+
+    #first_c {overflow: hidden; margin-bottom: 15px;}
+    #second_c {overflow: hidden; margin: 15px auto;}
+    #first_c li {
+        height: 265px;
+        float: left;
+    }
+    #first_c li:first-child {
+       
+    }
+        #first_c li:nth-child(2) {
+            width: 186px;
+            margin-left: 12px;
+        }
+
+    #second_c li {
+        height: 265px;
+        float: left;
+    }
+    #second_c li .span_2 {
+        width: 180px;
+        
+    }
+    #second_c li:first-child, #second_c li:nth-child(2), #second_c li:nth-child(3){
+        margin-right: 12px;
+    }
+
+    /*footer*/
+    footer {
+        margin-left: 180px;
+    }
+
+    .test {
+        position: absolute;
+        border: 1px solid black;
+        left: 10px;
+        top: 10px;
+        height: 123px;
+        width: 165px;
+        border: 1px dotted #808080;
+    }
+        .test h2 {
+            font-size: 1.5em;
+            color: #808080;
+            text-align: center;
+        }
+}
